@@ -101,9 +101,17 @@ nav button{
 }
 
 .main input{
-    padding: 3px 24px;
+    padding: 7px 101px 8px 14px;
     border-radius: 4px;
-    font-size: 20px;
+    font-weight: 900;
+    font-size: 12px;
     background-color: rgba(23, 23, 23, 0.2);
-    color: white;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
 }
