@@ -13,7 +13,7 @@ body{
     height: 644px;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1240px, 127vw);
+    background-size: max(1240px, 100vw);
     position: relative;
 }
 
@@ -114,4 +114,47 @@ nav button{
     align-items: center;
     justify-content: center;
     gap: 16px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    width: 555px;
+    top: -40px;
+    position: absolute;
+    z-index: 10;
+}
+
+.secImg video{
+    position: absolute;
+    top: 44px;
+    right: -550px;
+    width: 480px;
+}
+
+section.first > :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+    position: relative;
+    top: 210px;
+    left: -400px;
+}
+
+section.first > :nth-child(2){
+    font-size: 24px;
+    position: relative;
+    left: -155px;
+    top: 230px;
 }
