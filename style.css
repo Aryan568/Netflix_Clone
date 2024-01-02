@@ -359,22 +359,24 @@ section.first>div :nth-child(2) {
 }
 
 
-
-.secImg1 {
+.secImg1 img {
     position: relative;
-    margin-right: 80px;
-    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 500px;
+    left: 80px;
 }
 
-.secImg1 img {
-    width: 555px;
-    position: relative;
-    z-index: 10;
+section.second>div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-top: 40px;
 }
 
 section.second>div :nth-child(1){
-    margin-right: 30px;
-    padding: 0;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 section.second>div :nth-child(2) {
