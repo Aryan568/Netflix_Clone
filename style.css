@@ -350,6 +350,37 @@ section.first>div :nth-child(2) {
     font-size: 20px;
 }
 
+.second {
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+    color: white;
+    align-items: center;
+}
+
+
+
+.secImg1 {
+    position: relative;
+    margin-right: 80px;
+    padding-bottom: 40px;
+}
+
+.secImg1 img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+section.second>div :nth-child(1){
+    margin-right: 30px;
+    padding: 0;
+}
+
+section.second>div :nth-child(2) {
+    font-size: 20px;
+}
+
 
 .faq h2 {
     text-align: center;
